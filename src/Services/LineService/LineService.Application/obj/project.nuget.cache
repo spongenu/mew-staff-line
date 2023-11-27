@@ -1,13 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "r9lV3QAlitOBq/TZT2EWPlsdzHZF6Eb3wSwmek3sLxA4T60dwe2ucf5d5GY0rQayw/IHpa3eYemcXnHOW8G9TQ==",
+  "dgSpecHash": "4K794xbiwL+D7AZ44m8fI2ODGA+E1YikzpUmi3hNrd6w3i82djKxTLaajzc7AhwPA/ZBv0b9JKYx8OCNoep/KA==",
   "success": true,
   "projectFilePath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/LineService.Application.csproj",
   "expectedPackageFiles": [
     "/Users/arco/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
     "/Users/arco/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/Users/arco/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "/Users/arco/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "/Users/arco/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/arco/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/arco/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
+    "/Users/arco/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/arco/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/arco/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

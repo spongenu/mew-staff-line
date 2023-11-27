@@ -1,4 +1,4 @@
-﻿using System;
+﻿using LineService.Application.Utils;
 using MediatR;
 
 namespace LineService.Application.Features.Webhook.Commands.WebhookEvent
@@ -9,9 +9,10 @@ namespace LineService.Application.Features.Webhook.Commands.WebhookEvent
 		{
 		}
 
-        public Task<WebhookEventCommandVm> Handle(WebhookEventCommand request, CancellationToken cancellationToken)
+        public async Task<WebhookEventCommandVm> Handle(WebhookEventCommand request, CancellationToken cancellationToken)
         {
 
+            await clsMessaging.SendReplyMessagesAsync("hi", request.events![0].replyToken);
             throw new NotImplementedException();
         }
     }

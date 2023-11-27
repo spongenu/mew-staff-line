@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
@@ -15,6 +17,7 @@
     <None Remove="Features\Webhook\" />
     <None Remove="Features\Webhook\Commands\" />
     <None Remove="Features\Webhook\Commands\WebhookEvent\" />
+    <None Remove="Utils\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -22,5 +25,6 @@
     <Folder Include="Features\Webhook\" />
     <Folder Include="Features\Webhook\Commands\" />
     <Folder Include="Features\Webhook\Commands\WebhookEvent\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 </Project>

@@ -1,11 +1,11 @@
-/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/bin/Debug/net6.0/LineService.Application.deps.json
-/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/bin/Debug/net6.0/LineService.Application.dll
-/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/bin/Debug/net6.0/LineService.Application.pdb
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/LineService.Application.csproj.AssemblyReference.cache
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/LineService.Application.GeneratedMSBuildEditorConfig.editorconfig
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/LineService.Application.AssemblyInfoInputs.cache
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/LineService.Application.AssemblyInfo.cs
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/LineService.Application.csproj.CoreCompileInputs.cache
+/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/bin/Debug/net6.0/LineService.Application.deps.json
+/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/bin/Debug/net6.0/LineService.Application.dll
+/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/bin/Debug/net6.0/LineService.Application.pdb
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/LineService.Application.dll
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/refint/LineService.Application.dll
 /Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/obj/Debug/net6.0/LineService.Application.pdb
