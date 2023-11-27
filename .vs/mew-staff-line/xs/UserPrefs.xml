@@ -1,16 +1,41 @@
 ﻿<Properties StartupConfiguration="{5934FC1B-F078-4F46-9D70-666AC7959089}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Features/Webhook/Commands/WebhookEvent/WebhookEventCommandHandler.cs" relfile="src/Services/LineService/LineService.Application/Features/Webhook/Commands/WebhookEvent/WebhookEventCommandHandler.cs" line="15" column="1" />
+      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Api/Controllers/LineController.cs" relfile="src/Services/LineService/LineService.Api/Controllers/LineController.cs" line="36" column="1" />
+      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Api/Controllers/LineController.cs" relfile="src/Services/LineService/LineService.Api/Controllers/LineController.cs" line="31" column="1" />
+      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" relfile="src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" line="26" column="1" />
+      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" relfile="src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" line="10" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.src.Services.LineService.LineService.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+    <Files>
+      <File FileName=".gitignore" Line="4" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="mew-staff-line" expanded="True" selected="True" />
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="mew-staff-line" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="LineService" expanded="True">
+                  <Node name="LineService.Api" expanded="True">
+                    <Node name="Controllers" expanded="True" />
+                    <Node name="appsettings.json" expanded="True" />
+                  </Node>
+                  <Node name="LineService.Application" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name=".gitignore" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
