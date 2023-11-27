@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{5934FC1B-F078-4F46-9D70-666AC7959089}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.Services.LineService.LineService.Application FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.ItemProperties.src.Services.LineService.LineService.Api PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
