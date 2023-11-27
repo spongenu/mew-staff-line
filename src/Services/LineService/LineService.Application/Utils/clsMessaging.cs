@@ -1,7 +1,4 @@
-﻿using System;
-using LineService.Application.Features.Webhook.Commands.WebhookEvent;
-using LineService.Application.Models;
-using Newtonsoft.Json;
+﻿using LineService.Application.Models;
 using RestSharp;
 
 namespace LineService.Application.Utils
@@ -17,8 +14,8 @@ namespace LineService.Application.Utils
             var restClient = new RestClient(url);
             var request = new RestRequest(resource);
 
-            var messages = new List<MessageModel>();
-            messages.Add(new MessageModel { type="text",text=message});
+            var messages = new List<_message>();
+            messages.Add(new _message { type="text",text=message});
 
             var replyMessage = new ReplyMessageModel
             {
