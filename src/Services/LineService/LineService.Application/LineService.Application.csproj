@@ -18,6 +18,9 @@
     <None Remove="Features\Webhook\Commands\" />
     <None Remove="Features\Webhook\Commands\WebhookEvent\" />
     <None Remove="Utils\" />
+    <None Remove="Features\Message\" />
+    <None Remove="Features\Message\Commands\" />
+    <None Remove="Features\Message\Commands\PushMessage\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -26,5 +29,8 @@
     <Folder Include="Features\Webhook\Commands\" />
     <Folder Include="Features\Webhook\Commands\WebhookEvent\" />
     <Folder Include="Utils\" />
+    <Folder Include="Features\Message\" />
+    <Folder Include="Features\Message\Commands\" />
+    <Folder Include="Features\Message\Commands\PushMessage\" />
   </ItemGroup>
 </Project>

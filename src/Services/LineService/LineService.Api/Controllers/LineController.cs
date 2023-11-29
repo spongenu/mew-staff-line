@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using LineService.Application.Features.Message.Commands.PushMessage;
 using LineService.Application.Features.Webhook.Commands.WebhookEvent;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -39,6 +40,25 @@ namespace LineService.Api.Controllers
             return Ok();
         }
 
+        [HttpPost("[Action]")]
+        [ProducesResponseType(typeof(Unit), (int)HttpStatusCode.Created)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public async Task<ActionResult<Unit>> PushMessage(PushMessageCommand param)
+        {
+            try
+            {
+                var resp = await _mediator.Send(param);
+                return Ok(resp);
+            }
+            catch (System.Exception ex)
+            {
+                var a = ex.ToString();
+            }
+
+            return Ok();
+        }
 
         //[HttpPost("[Action]", Name = "Webhook")]
         //[ProducesResponseType(StatusCodes.Status204NoContent)]

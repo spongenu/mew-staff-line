@@ -3,7 +3,7 @@ using MediatR;
 
 namespace LineService.Application.Features.Webhook.Commands.WebhookEvent
 {
-	public class WebhookEventCommand : IRequest<WebhookEventCommandVm>
+	public class WebhookEventCommand : IRequest
     {
         public string? destination { get; set; }
         public List<_event>? events { get; set; }      
