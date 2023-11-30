@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Net;
 using LineService.Application.Features.Message.Commands.PushMessage;
+using LineService.Application.Features.User.Commands.CreateUserByIdToken;
+using LineService.Application.Features.User.Queries.GetLineProfileByIdToken;
 using LineService.Application.Features.Webhook.Commands.WebhookEvent;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -60,17 +62,36 @@ namespace LineService.Api.Controllers
             return Ok();
         }
 
-        //[HttpPost("[Action]", Name = "Webhook")]
-        //[ProducesResponseType(StatusCodes.Status204NoContent)]
-        //[ProducesResponseType(StatusCodes.Status404NotFound)]
-        //[ProducesDefaultResponseType]
-        //public async Task<ActionResult> Webhook([FromBody] object command)
-        //{
-        //    var s = JsonConvert.SerializeObject(command);
+        
+        [HttpPost("[Action]", Name = "GetLineProfileByIdToken")]
+        [ProducesResponseType(typeof(GetLineProfileByIdTokenQueryVm), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public async Task<ActionResult<GetLineProfileByIdTokenQueryVm>> GetLineProfileByIdToken([FromBody] GetLineProfileByIdTokenQuery query)
+        {
+            var resp = await _mediator.Send(query);
+            return Ok(resp);
+        }
 
-        //    //var resp = await _mediator.Send(command);
-        //    return Ok();
-        //}
+        [HttpPost("[Action]")]
+        [ProducesResponseType(typeof(Unit), (int)HttpStatusCode.Created)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public async Task<ActionResult<Unit>> CreateUserByIdToken(CreateUserByIdTokenCommand param)
+        {       
+            var resp = await _mediator.Send(param);
+            if (resp)
+            {
+                return Ok();
+            }
+            else
+            {
+                return StatusCode(500, resp);
+            }
+        }
+
 
     }
 }

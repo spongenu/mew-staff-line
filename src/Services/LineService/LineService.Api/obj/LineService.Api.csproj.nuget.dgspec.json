@@ -29,6 +29,9 @@
             "projectReferences": {
               "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/LineService.Application.csproj": {
                 "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/LineService.Application.csproj"
+              },
+              "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Infrastructure/LineService.Infrastructure.csproj": {
+                "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Infrastructure/LineService.Infrastructure.csproj"
               }
             }
           }
@@ -92,6 +95,92 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Domain/LineService.Domain.csproj": {
+                "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Domain/LineService.Domain.csproj"
+              },
+              "/Users/arco/Documents/project/mew-staff-line/src/Utility/CommonModel/CommonModel.csproj": {
+                "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Utility/CommonModel/CommonModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Domain/LineService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Domain/LineService.Domain.csproj",
+        "projectName": "LineService.Domain",
+        "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Domain/LineService.Domain.csproj",
+        "packagesPath": "/Users/arco/.nuget/packages/",
+        "outputPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -105,19 +194,127 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "MongoDB.Driver": {
               "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[110.2.0, )"
+              "version": "[2.22.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Infrastructure/LineService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Infrastructure/LineService.Infrastructure.csproj",
+        "projectName": "LineService.Infrastructure",
+        "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Infrastructure/LineService.Infrastructure.csproj",
+        "packagesPath": "/Users/arco/.nuget/packages/",
+        "outputPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/LineService.Application.csproj": {
+                "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/LineService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arco/Documents/project/mew-staff-line/src/Utility/CommonModel/CommonModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arco/Documents/project/mew-staff-line/src/Utility/CommonModel/CommonModel.csproj",
+        "projectName": "CommonModel",
+        "projectPath": "/Users/arco/Documents/project/mew-staff-line/src/Utility/CommonModel/CommonModel.csproj",
+        "packagesPath": "/Users/arco/.nuget/packages/",
+        "outputPath": "/Users/arco/Documents/project/mew-staff-line/src/Utility/CommonModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

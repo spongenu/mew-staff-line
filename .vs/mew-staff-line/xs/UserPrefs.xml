@@ -1,15 +1,4 @@
 ﻿<Properties StartupConfiguration="{5934FC1B-F078-4F46-9D70-666AC7959089}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Features/Webhook/Commands/WebhookEvent/WebhookEventCommandHandler.cs" relfile="src/Services/LineService/LineService.Application/Features/Webhook/Commands/WebhookEvent/WebhookEventCommandHandler.cs" line="15" column="1" />
-      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Api/Controllers/LineController.cs" relfile="src/Services/LineService/LineService.Api/Controllers/LineController.cs" line="36" column="1" />
-      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Api/Controllers/LineController.cs" relfile="src/Services/LineService/LineService.Api/Controllers/LineController.cs" line="31" column="1" />
-      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" relfile="src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" line="26" column="1" />
-      <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" relfile="src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" line="10" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.src.Services.LineService.LineService.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="src/Services/LineService/LineService.Application/Utils/clsMessaging.cs">
     <Files>
       <File FileName="src/Services/LineService/LineService.Application/ApplicationServiceRegistration.cs" Line="13" Column="11" />
@@ -40,6 +29,18 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.Utility.CommonModel FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Features/Webhook/Commands/WebhookEvent/WebhookEventCommandHandler.cs" relfile="src/Services/LineService/LineService.Application/Features/Webhook/Commands/WebhookEvent/WebhookEventCommandHandler.cs" line="15" column="1" />
+    <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Api/Controllers/LineController.cs" relfile="src/Services/LineService/LineService.Api/Controllers/LineController.cs" line="36" column="1" />
+    <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Api/Controllers/LineController.cs" relfile="src/Services/LineService/LineService.Api/Controllers/LineController.cs" line="31" column="1" />
+    <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" relfile="src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" line="26" column="1" />
+    <Breakpoint file="/Users/arco/Documents/project/mew-staff-line/src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" relfile="src/Services/LineService/LineService.Application/Utils/clsMessaging.cs" line="10" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.src.Services.LineService.LineService.Infrastructure FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.Services.LineService.LineService.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.Services.LineService.LineService.Domain FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
