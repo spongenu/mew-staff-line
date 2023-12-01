@@ -3,6 +3,7 @@ using System.Net;
 using LineService.Application.Features.Message.Commands.PushMessage;
 using LineService.Application.Features.User.Commands.CreateUserByIdToken;
 using LineService.Application.Features.User.Queries.GetLineProfileByIdToken;
+using LineService.Application.Features.User.Queries.GetScheduleByIdToken;
 using LineService.Application.Features.Webhook.Commands.WebhookEvent;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -92,6 +93,16 @@ namespace LineService.Api.Controllers
             }
         }
 
+        [HttpPost("[Action]", Name = "GetScheduleByIdToken")]
+        [ProducesResponseType(typeof(GetScheduleByIdTokenQueryVm), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public async Task<ActionResult<GetScheduleByIdTokenQueryVm>> GetScheduleByIdToken([FromBody] GetScheduleByIdTokenQuery query)
+        {
+            var resp = await _mediator.Send(query);
+            return Ok(resp);
+        }        
 
     }
 }

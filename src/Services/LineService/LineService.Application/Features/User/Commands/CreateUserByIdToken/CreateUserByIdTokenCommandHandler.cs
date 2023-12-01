@@ -34,6 +34,7 @@ namespace LineService.Application.Features.User.Commands.CreateUserByIdToken
                         {
                             Uid = res.sub!,
                             DisplayName = res.name,
+                            PictureUrl = res.picture,
                             createDate = DateTime.UtcNow,
                             updateDate = DateTime.UtcNow
                         });

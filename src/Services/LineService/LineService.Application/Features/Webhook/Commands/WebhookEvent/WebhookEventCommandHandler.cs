@@ -16,7 +16,6 @@ namespace LineService.Application.Features.Webhook.Commands.WebhookEvent
 
         public async Task<Unit> Handle(WebhookEventCommand request, CancellationToken cancellationToken)
         {
-
             foreach (var _event in request.events!)
             {
                 await clsMessaging.SendReplyMessagesAsync(_event.type, _event.replyToken);       

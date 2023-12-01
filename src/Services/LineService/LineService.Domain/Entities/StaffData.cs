@@ -9,7 +9,8 @@ namespace LineService.Domain.Entities
     {
         public string? Uid { get; set; }
         public string? DisplayName { get; set; }
-        public string? Name { get; set; }        
+        public string? Name { get; set; }
+        public string? PictureUrl { get; set; }
         public string? Status { get; set; }
         public string? Role { get; set; }
         public List<string>? WorkShift { get; set; }

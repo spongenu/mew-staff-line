@@ -1,11 +1,11 @@
-﻿using System;
+﻿using MediatR;
+
 namespace LineService.Application.Features.User.Queries.GetScheduleByIdToken
 {
-	public class GetScheduleByIdTokenQuery
-	{
-		public GetScheduleByIdTokenQuery()
-		{
-		}
-	}
+	public class GetScheduleByIdTokenQuery : IRequest<GetScheduleByIdTokenQueryVm>
+    {
+        public string? IdToken { get; set; }
+    }
 }
 
+	
